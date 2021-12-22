@@ -1,0 +1,302 @@
+html,
+body {
+  font-family: Traviata;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  max-width: 100%;
+}
+
+#tobold {
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+.test {
+  height: 100vh;
+  background-color: black;
+}
+
+.what {
+  position: relative;
+  left: 0%;
+  top: 40px;
+}
+
+.container {
+  width: 100%;
+
+  margin: 0 auto;
+}
+
+.header {
+  height: 80px;
+  width: 100%;
+
+  position: absolute;
+  top: 0px;
+  z-index: 10;
+}
+
+.header a {
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  color: back;
+}
+
+.jax {
+  font-family: CosiAzure-Bold;
+  color: tan;
+}
+
+.split-text {
+  opacity: 0;
+}
+
+.inner-header {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.nav.a {
+  margin: 0 20px;
+  text-decoration: none;
+  letter-spacing: 1.75px;
+  font-size: 0.75rem;
+  color: black;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: rgb(12, 11, 11);
+  position: relative;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.row {
+  position: relative;
+}
+.scroll {
+  font-weight: 700;
+  font-size: 0.875rem;
+  letter-spacing: 1.5px;
+  color: tan;
+  font-family: CosiAzure-Bold;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 48px;
+}
+
+.fixed-misc {
+  position: fixed;
+  right: 100px;
+  color: white;
+  mix-blend-mode: difference;
+}
+
+@font-face {
+  font-family: CosiAzure-Bold;
+
+  src: url("../fonts/Cosi\ Azure\ Black.otf");
+}
+
+@font-face {
+  font-family: GrandSlang-B;
+
+  src: url("../fonts/GrandSlang\ B-Side.otf");
+}
+
+.main-text {
+  font-family: CosiAzure-Bold;
+
+  font-weight: 800;
+
+  font-size: 0.2rem;
+
+  color: tan;
+}
+
+.main-image {
+  width: 536px;
+  margin: 0 auto;
+}
+
+.side-image-left {
+  width: 208px;
+  left: 168px;
+  top: 12px;
+  position: relative;
+}
+
+.blah {
+  bottom: 250px;
+  right: 60px;
+  width: 200px;
+  height: 250px;
+  position: relative;
+}
+.gah {
+  width: 400px;
+  height: 100px;
+}
+.vah {
+  width: 100px;
+  height: 100px;
+}
+.side-image-right {
+  width: 208px;
+  right: 168px;
+  bottom: 12px;
+  position: absolute;
+}
+
+.about-blurb {
+  padding: 48px 0;
+  background: white;
+  position: relative;
+}
+
+.inner-blurb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  width: 33%;
+}
+.h3 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: 1.5px;
+  margin: 0;
+}
+
+.p {
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 300;
+  margin: 40px 0 72px;
+}
+
+.images {
+  width: 50%;
+  height: 1000px;
+  position: relative;
+  z-index: 7;
+}
+.top-right {
+  position: absolute;
+  width: 460px;
+  top: 0;
+  right: 0;
+  z-index: 4;
+}
+
+.top-left {
+  position: absolute;
+  width: 410px;
+  left: 0;
+  bottom: 0;
+}
+
+.blackbox {
+  background: black;
+  height: 418px;
+  width: 836px;
+  position: absolute;
+  left: 65%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#overlay {
+  z-index: 7;
+  height: 418px;
+  width: 836px;
+  position: absolute;
+  left: 65%;
+  top: 50%;
+  transform: translateY(-50%);
+  background: maroon;
+}
+
+.aboutit {
+  font-family: Ogg;
+  position: relative;
+  opacity: 1;
+  letter-spacing: 1px;
+  top: 120px;
+  color: tan;
+  font-size: 3rem;
+}
+
+#headlines {
+  opacity: 0;
+}
+
+@media screen and (max-width: 1440px) {
+  html,
+  body {
+    width: 1280px;
+    min-width: 1280px;
+  }
+
+  .images {
+    height: 800px;
+  }
+
+  .top-right {
+    width: 360px;
+  }
+
+  .top-left {
+    width: 310px;
+  }
+
+  .content {
+    width: 40%;
+  }
+  .main-text {
+    font-family: CosiAzure-Bold;
+
+    font-weight: 800;
+
+    font-size: 0.5rem;
+
+    color: tan;
+  }
+
+  .main-image {
+    width: 436px;
+    margin: 0 auto;
+  }
+
+  .side-image-left {
+    width: 208px;
+    left: 128px;
+    top: 12px;
+    position: absolute;
+  }
+  .side-image-right {
+    width: 208px;
+    right: 128px;
+    bottom: 12px;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 1280px) {
+  html,
+  body {
+    width: 976px;
+    min-width: 976px;
+  }
+}
