@@ -209,14 +209,14 @@ const Banner = () => {
             
             </div>
             <div className="fixed-misc">
-            <Link to="https://www.instagram.com/kemetsarts/" className="ig"><img src={InstagramLogo}></img></Link>
+            <Link to="https://www.instagram.com/" className="ig"><img src={InstagramLogo}></img></Link>
             <br></br>
             <br></br>
 
             <Link to="https://github.com/raychy93/" className= "gitlogo"><img src={GithubLogo}></img></Link> 
             <br></br>
             <br></br>
-            <Link to="https://twitter.com/crimsonsummit" className= "twitt"><img src={TwitterLogo}></img></Link>   
+            <Link to="https://twitter.com/" className= "twitt"><img src={TwitterLogo}></img></Link>   
             </div>
        
         </div>
